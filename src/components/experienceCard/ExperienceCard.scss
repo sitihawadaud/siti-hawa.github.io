@@ -24,7 +24,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: 150%;
-  background: $experienceCardBannerLG;
+  background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
   border-radius: 10px 10px 0px 0px;
   -webkit-filter: blur(0px);
   -moz-filter: blur(0px);
@@ -35,6 +35,10 @@
   display: flex;
   align-items: flex-end;
   justify-content: center;
+}
+
+.experience-banner.um-banner {
+  background: linear-gradient(135deg, #003366 0%, #0066cc 50%, #d4af37 100%);
 }
 
 .experience-blurred_div {
@@ -79,7 +83,7 @@
 
 .experience-roundedimg {
   position: absolute;
-  object-fit: cover;
+  object-fit: contain;
   left: 0;
   right: 0;
   top: 7rem;
@@ -89,6 +93,8 @@
   height: 8rem;
   box-shadow: 0 0.5rem 1rem $lightBoxShadowDarker;
   border-radius: 50%;
+  background-color: #ffffff !important;
+  padding: 0.8rem;
 }
 
 .experience-text-role {
@@ -137,20 +143,73 @@
   .experience-roundedimg {
     width: 6.5rem;
     height: 6.5rem;
+    padding: 0.5rem;
   }
 }
 
 @media (max-width: 768px) {
+  .experience-card,
+  .experience-card-dark {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 100%;
+  }
+  
   .experience-text-role {
-    font-size: 22px;
+    font-size: 20px;
+    padding-top: 1rem;
   }
+  
   .experience-text-company {
-    font-size: 22px;
+    font-size: 20px;
+    padding: 1rem;
   }
+  
   .experience-text-date {
-    font-size: 18px;
-  }
-  .experience-text-desc {
     font-size: 16px;
+    padding-top: 0.5rem;
+  }
+  
+  .experience-text-desc {
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: left;
+    padding: 0.5rem 0;
+  }
+  
+  .experience-text-details {
+    padding: 1rem;
+    margin-top: 1.5rem;
+  }
+  
+  .experience-text-details ul {
+    padding-left: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .experience-text-details li {
+    font-size: 13px;
+    line-height: 1.4;
+    margin-bottom: 0.5rem;
+    text-align: left;
+  }
+  
+  .experience-banner {
+    height: 9rem;
+  }
+  
+  .experience-blurred_div {
+    height: 9rem;
+  }
+  
+  .experience-div-company {
+    height: 7rem;
+  }
+  
+  .experience-roundedimg {
+    top: 5rem;
+    width: 6rem;
+    height: 6rem;
+    padding: 0.4rem;
   }
 }

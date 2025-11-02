@@ -20,26 +20,22 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Siti Hawa Mad Daud",
+  title: "IT Officer | Full-Stack Developer",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "IT Officer at Universiti Malaya with 4+ years of experience in system development 🚀. Passionate about improving operations through technology and exploring AI & automation in system development."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "", // Add your resume link here
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/siti-hawa",
+  linkedin: "https://www.linkedin.com/in/siti-hawa-mad-daud/",
+  gitlab: "https://gitlab.com/siti-hawa",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,16 +44,13 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Technical Expertise",
+  subTitle: "FULL-STACK DEVELOPMENT • DATABASE • DEVOPS • PROJECT MANAGEMENT",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Full-Stack Development: Laravel, PHP, Vue.js, JavaScript, Livewire, Alpine.js"),
+    emoji("⚡ Database & API: PostgreSQL, RESTful API development and integration"),
+    emoji("⚡ DevOps & Collaboration: Git, GitLab, CI/CD, code review processes"),
+    emoji("⚡ Project Management: ClickUp, Jira, agile development practices")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -65,56 +58,76 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Laravel",
+      fontAwesomeClassname: "fab fa-laravel"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "PHP",
+      fontAwesomeClassname: "fab fa-php"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Vue.js",
+      fontAwesomeClassname: "fab fa-vuejs"
     },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "Alpine.js",
+      fontAwesomeClassname: "fas fa-mountain"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "Livewire",
+      fontAwesomeClassname: "fas fa-bolt"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "HTML5",
+      fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "CSS3",
+      fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sql-database",
+      skillName: "Tailwind CSS",
+      fontAwesomeClassname: "fas fa-wind"
+    },
+    {
+      skillName: "PostgreSQL",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "DBeaver",
+      fontAwesomeClassname: "fas fa-table"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "REST API",
+      fontAwesomeClassname: "fas fa-code"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "GitLab",
+      fontAwesomeClassname: "fab fa-gitlab"
+    },
+    {
+      skillName: "GitHub",
+      fontAwesomeClassname: "fab fa-github"
+    },
+    {
+      skillName: "Bitbucket",
+      fontAwesomeClassname: "fab fa-bitbucket"
+    },
+    {
+      skillName: "ClickUp",
+      fontAwesomeClassname: "fas fa-tasks"
+    },
+    {
+      skillName: "Jira",
+      fontAwesomeClassname: "fab fa-atlassian"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -126,43 +139,58 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Universiti Teknologi MARA, Jasin",
+      logo: require("./assets/images/uitmLogo.png"),
+      subHeader: "Bachelor of Computer Science (Hons.)",
+      duration: "2018 - 2021",
+      desc: "CGPA: 3.81 | Vice Chancellor's Award",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "🏅 Gold Award – International Jasin Multimedia & Computer Science Exhibition (2020)",
+        "🏅 Best Presenter – Data Mining & AI Exhibition (2019)",
+        "Specialized in software engineering, web development, and database systems",
+        "Graduated with honors and received Vice Chancellor's Award for academic excellence"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Universiti Teknologi MARA, Raub",
+      logo: require("./assets/images/uitmLogo.png"),
+      subHeader: "Diploma of Computer Science",
+      duration: "2016 - 2018",
+      desc: "CGPA: 3.78 | Vice Chancellor's Award",
+      descBullets: [
+        "🏅 Participant – Programming Competition (2017)",
+        "🏅 Secretariat – e-Sport Tournament (2016)",
+        "Strong foundation in programming fundamentals and software development",
+        "Active participant in academic competitions and extracurricular activities"
+      ]
     }
   ]
 };
 
-// Your top 3 proficient stacks/tech experience
+// Technical Proficiency
 
 const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Laravel Framework Development", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "PostgreSQL Database Management",
+      progressPercentage: "88%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "RESTful API Development & Integration",
+      progressPercentage: "87%"
+    },
+    {
+      Stack: "Git Version Control & Collaboration",
+      progressPercentage: "85%"
+    },
+    {
+      Stack: "Project Management (ClickUp, Jira)",
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,29 +202,58 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Information Technology Officer",
+      company: "Universiti Malaya",
+      companylogo: require("./assets/images/umLogo.png"),
+      date: "July 2021 – Present",
+      desc: "Technical Lead for Human Resource system development and API integration, responsible for full-stack development and team coordination.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "🎯 **Technical Leadership**: Currently serving as Technical Lead for Human Resource System development, overseeing core modules and team coordination",
+        "🏗️ **System Development**: Developed core modules including Leave Management, User Management, Staff Profile, Organization Structure, SSPA, Promotion Systems (Academic & Non-Academic), File Management, and Allowance Management",
+        "🔗 **API Integration**: Built and maintained eHR API for seamless integration with HRIS, UMExpert, and UMTouch systems",
+        "⚙️ **Technology Stack**: Working with Laravel, Livewire, Tailwind CSS, JavaScript, and PostgreSQL for scalable web application development",
+        "🛠️ **Release Management**: Appointed as Release Gatekeeper, responsible for controlling and overseeing system application releases across JTM",
+        "� **System Deployment**: Designated as HR System Deployer, responsible for production deployments of human resource applications and ensuring system reliability",
+        "�🔄 **DevOps & Version Control**: Acting as GitLab Gatekeeper for code review and merge processes, ensuring code quality and team collaboration",
+        "📊 **Database Management**: Structured and maintained migration files, ensuring data integrity and system scalability",
+        "🚀 **Task Force Participation**: Active member of DevOps Task Force and AI Tech Task Force, contributing to organizational digital transformation",
+        "👥 **Team Collaboration**: Working closely with HRIS team and other stakeholders to ensure consistent system integration and user experience"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Full Stack Software Engineer",
+      company: "B2BE GSS Sdn Bhd",
+      companylogo: require("./assets/images/b2beLogo.png"),
+      date: "July 2020 – July 2021",
+      desc: "Full-stack developer responsible for enterprise applications development, client support, and legacy system modernization initiatives.",
+      descBullets: [
+        "💼 Led development of comprehensive HRM system with employee management, payroll, and attendance tracking",
+        "🏢 Built co8 Workspace management platform supporting 500+ concurrent users",
+        "🔧 Maintained and enhanced legacy C# applications serving 20+ enterprise clients",
+        "⚡ Improved application performance by 40% through database indexing and query optimization",
+        "🎯 Resolved 95% of client support tickets within SLA timeframes",
+        "🔄 Modernized legacy codebase by migrating critical components to Laravel framework",
+        "📱 Developed responsive Vue.js interfaces compatible across desktop and mobile devices",
+        "🚀 Implemented automated backup systems and disaster recovery procedures",
+        "📊 Created comprehensive documentation and user manuals for all developed systems"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Engineering Intern",
+      company: "B2BE GSS Sdn Bhd",
+      companylogo: require("./assets/images/b2beLogo.png"),
+      date: "February 2020 – July 2020",
+      desc: "Software development intern focused on learning enterprise development practices and contributing to production systems.",
+      descBullets: [
+        "💻 Contributed to co8 Workspace system development using Laravel, Vue.js, and PostgreSQL",
+        "📚 Mastered Git workflows, branching strategies, and collaborative development practices",
+        "🧪 Participated in agile development cycles including sprint planning and daily standups",
+        "🎨 Developed 15+ reusable Vue.js components for improved UI consistency",
+        "🔍 Assisted in debugging complex issues and performed thorough system testing",
+        "📖 Created technical documentation and API guides for internal development team",
+        "🏆 Completed internship with exceptional performance rating and job offer",
+        "🤝 Collaborated effectively with senior developers and learned industry best practices"
+      ]
     }
   ]
 };
@@ -212,29 +269,47 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Key Projects",
+  subtitle: "SYSTEMS & TECHNICAL LEADERSHIP",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/umLogo.png"),
+      projectName: "eHR System - Universiti Malaya",
+      projectDesc: "**Role:** Technical Lead & System Architect | **Tech:** Laravel, Livewire, Tailwind, PostgreSQL | **Impact:** Enterprise HR system serving 5000+ staff | **Key Contributions:** • Led architecture design and core module development • Built Leave Management, User Profile, and Promotion systems • Established coding standards and development workflows • Integrated with multiple university systems for seamless data flow",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "🌐 Live System",
+          url: "https://ehr.um.edu.my"
+        },
+        {
+          name: "� LinkedIn Profile",
+          url: "https://www.linkedin.com/in/siti-hawa-mad-daud/"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/googleAssistantLogo.webp"),
+      projectName: "API Integration Hub - Universiti Malaya",
+      projectDesc: "**Role:** Backend Developer & Integration Specialist | **Tech:** Laravel API, PostgreSQL | **Impact:** Seamless data flow between 3 major systems | **Key Contributions:** • Designed secure API endpoints for inter-system communication • Ensured data synchronization between eHR, HRIS, and UMExpert • Established API documentation and integration protocols • Built robust authentication and authorization layers",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "� API Documentation",
+          url: "https://ehrapi.um.edu.my"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/b2beLogo.png"),
+      projectName: "Enterprise Workspace Platform - B2BE GSS",
+      projectDesc: "**Role:** Full-Stack Developer | **Tech:** Laravel, Vue.js, PostgreSQL, C# | **Impact:** 500+ concurrent users, 20+ enterprise clients | **Key Contributions:** • Developed comprehensive HRM and workspace management systems • Built responsive UI components and robust backend APIs • Achieved 40% performance improvement through optimization • Modernized legacy C# applications to Laravel framework",
+      footerLink: [
+        {
+          name: "🏢 Company Profile",
+          url: "https://www.b2begss.com"
+        },
+        {
+          name: "💻 GitHub",
+          url: "https://github.com/siti-hawa"
         }
       ]
     }
@@ -246,57 +321,63 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Achievements & Recognition 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Academic excellence and professional recognition",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "🎓 Academic Excellence",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+        "Vice Chancellor's Award recipient for both Bachelor and Diploma degrees with outstanding academic performance. Achieved CGPA 3.81 (Bachelor) and CGPA 3.78 (Diploma) demonstrating consistent academic excellence throughout university studies.",
+      image: require("./assets/images/uitmLogo.png"),
+      imageAlt: "Academic Excellence",
+      footerLink: [
+        {
+          name: "View GitHub Profile",
+          url: "https://github.com/siti-hawa"
+        },
+        {
+          name: "Connect on LinkedIn",
+          url: "https://www.linkedin.com/in/siti-hawa-mad-daud/"
+        }
+      ]
+    },
+    {
+      title: "🥇 Gold Award Winner",
+      subtitle:
+        "Gold Award – International Jasin Multimedia & Computer Science Exhibition (2020). Recognized for innovative project presentation and technical excellence in multimedia and computer science field during Bachelor studies.",
       image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+      imageAlt: "Gold Award Winner",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          name: "Portfolio Projects",
+          url: "https://github.com/siti-hawa"
         },
         {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Professional Profile",
+          url: "https://www.linkedin.com/in/siti-hawa-mad-daud/"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+      title: "🏆 Best Presenter Award",
+      subtitle: "Best Presenter – Data Mining & AI Exhibition (2019). Demonstrated excellent communication skills and deep understanding of data mining and artificial intelligence concepts through engaging presentation delivery.",
       image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+      imageAlt: "Best Presenter",
       footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
+        {name: "GitHub Repository", url: "https://github.com/siti-hawa"},
+        {name: "LinkedIn Profile", url: "https://www.linkedin.com/in/siti-hawa-mad-daud/"}
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "💼 Professional Growth",
+      subtitle: "Successfully transitioned from intern to full-time developer, then promoted to Technical Lead role. Active participation in programming competitions and e-Sports tournaments, demonstrating well-rounded technical and leadership capabilities.",
+      image: require("./assets/images/umLogo.png"),
+      imageAlt: "Professional Growth",
       footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+        {name: "Career Journey", url: "https://github.com/siti-hawa"},
+        {name: "Professional Network", url: "https://www.linkedin.com/in/siti-hawa-mad-daud/"}
       ]
     }
   ],
@@ -306,57 +387,118 @@ const achievementSection = {
 // Blogs Section
 
 const blogSection = {
-  title: "Blogs",
+  title: "Technical Insights",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+    "Sharing knowledge about HR system development, Laravel best practices, and API integration patterns.",
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "#",
+      title: "Building Scalable HR Systems with Laravel and Vue.js",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Best practices and architectural patterns for developing enterprise-level HR management systems using Laravel backend and Vue.js frontend."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "#",
+      title: "RESTful API Design for System Integration",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "Guidelines and implementation strategies for creating robust APIs that connect multiple HR systems and platforms."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
+  title: "TALKS & PRESENTATIONS",
   subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+    "SHARING KNOWLEDGE ABOUT HR SYSTEM DEVELOPMENT AND BEST PRACTICES 🎯"
   ),
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "Modern HR System Architecture",
+      subtitle: "Internal Tech Talk at Universiti Malaya",
+      slides_url: "#",
+      event_url: "#"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
 
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+  subtitle: "SHARING INSIGHTS ABOUT TECHNOLOGY AND SYSTEM DEVELOPMENT",
 
   // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+  podcast: [],
+  display: false // Set false to hide this section, defaults to true
+};
+
+// Task Force Initiatives Section
+const taskForceSection = {
+  title: emoji("Task Force & Initiatives 🚀"),
+  subtitle: "Contributing to organizational digital transformation and innovation",
+  initiatives: [
+    {
+      title: "DevOps Task Force",
+      organization: "Universiti Malaya",
+      logo: require("./assets/images/developerActivity.svg"),
+      role: "Active Member",
+      duration: "Present",
+      description: "Member of internal task force to design and standardize UM's system development framework. Contributed to CI/CD structure and Git workflow recommendations for multi-unit teams.",
+      highlights: [
+        "Designed standardized development workflows",
+        "Contributed to CI/CD pipeline recommendations",
+        "Established Git branching strategies for teams"
+      ]
+    },
+    {
+      title: "AI Tech Task Force",
+      organization: "Universiti Malaya",
+      logo: require("./assets/images/googleAssistant.svg"),
+      role: "Research Member",
+      duration: "Present",
+      description: "Involved in researching AI implementation and potential for development automation. Evaluated effectiveness of AI-assisted coding and system monitoring tools.",
+      highlights: [
+        "Research AI integration in system development",
+        "Evaluate AI-assisted coding tools",
+        "Explore automation opportunities"
+      ]
+    },
+    {
+      title: "Release Gatekeeper",
+      organization: "Universiti Malaya - JTM",
+      logo: require("./assets/images/umLogo.png"),
+      role: "System Release Controller",
+      duration: "Present",
+      description: "Officially appointed as Release Gatekeeper for application systems by Jabatan Teknologi Maklumat (JTM). Responsible for ensuring quality control and systematic release process for university application systems.",
+      highlights: [
+        "Control and oversee system application releases",
+        "Ensure quality standards and deployment procedures",
+        "Coordinate release processes across development teams",
+        "Maintain system stability and deployment integrity"
+      ]
+    }
   ],
   display: true // Set false to hide this section, defaults to true
+};
+
+// Professional Summary Section
+const professionalSummary = {
+  title: emoji("Professional Summary 💼"),
+  subtitle: "IT Officer with 4+ years in system development",
+  summary: [
+    "🎯 **Current Role**: Technical Lead for HR System development at Universiti Malaya",
+    "⚡ **Technical Expertise**: Full-stack development with Laravel, PostgreSQL, and modern web technologies", 
+    "🔗 **Integration Specialist**: Built APIs connecting multiple systems (eHR, HRIS, UMExpert, UMTouch)",
+    "🛠️ **DevOps Leadership**: Release Gatekeeper ensuring quality deployments",
+    "🤖 **Innovation Focus**: Active in AI Tech Task Force exploring automation in system development"
+  ],
+  display: true
 };
 
 // Resume Section
@@ -369,21 +511,87 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Connect With Me 🔗"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Feel free to connect with me on GitHub and LinkedIn to explore my work and professional journey.",
+  number: "",
+  email_address: ""
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  userName: "", //Replace "twitter" with your twitter username without @
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+// Languages Section
+const languagesSection = {
+  title: "Languages",
+  subtitle: "Languages I can communicate in",
+  languages: [
+    {
+      language: "Malay",
+      proficiency: "Proficient"
+    },
+    {
+      language: "English", 
+      proficiency: "Advanced"
+    }
+  ],
+  display: false
+};
+
+// Hobbies Section
+const hobbiesSection = {
+  title: "Hobbies & Interests",
+  subtitle: "What I love to do in my free time",
+  hobbies: [
+    {
+      hobby: "Netball",
+      description: "Enjoys teamwork, leadership, and physical activity"
+    },
+    {
+      hobby: "Volleyball",
+      description: "Passionate about team sports and staying active"
+    }
+  ],
+  display: false
+};
+
+// Goals and Vision Section
+const aspirationsSection = {
+  title: emoji("Professional Goals & Vision 🎯"),
+  subtitle: "My commitment to continuous growth and contribution",
+  aspirations: [
+    {
+      title: "🏗️ Sustainable System Development",
+      description: "Continue developing scalable, secure and user-friendly HR systems that meet evolving organizational needs"
+    },
+    {
+      title: "🤖 Automation & AI Integration", 
+      description: "Lead initiatives in AI adoption for administrative process automation and system development enhancement"
+    },
+    {
+      title: "👥 Mentoring & Knowledge Sharing",
+      description: "Share experience and mentor new developers to ensure continuity of system quality and best practices"
+    },
+    {
+      title: "🔗 System Integration Excellence",
+      description: "Strengthen organizational system integration ecosystem for more efficient workflows and data management"
+    }
+  ],
+  motto: "For me, system development is not just about writing code — it's about building solutions that provide value to users and organizations.",
+  display: true
+};
+
+// References Section - Disabled for public portfolio
+const referencesSection = {
+  title: "Professional References",
+  subtitle: "Available upon request",
+  references: [],
+  display: false
+};const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
@@ -403,5 +611,11 @@ export {
   contactInfo,
   twitterDetails,
   isHireable,
-  resumeSection
+  resumeSection,
+  languagesSection,
+  hobbiesSection,
+  aspirationsSection,
+  referencesSection,
+  taskForceSection,
+  professionalSummary
 };

@@ -45,6 +45,11 @@ export default function ExperienceCard({cardInfo, isDark}) {
           src={cardInfo.companylogo}
           alt={cardInfo.company}
           onLoad={() => getColorArrays()}
+          onError={(e) => {
+            console.log('Image load error:', e);
+            // Fallback to default color if image fails to load
+            setColorArrays([30, 58, 138]); // Default blue color
+          }}
         />
       </div>
       <div className="experience-text-details">

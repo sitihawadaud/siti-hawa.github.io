@@ -34,4 +34,16 @@
     font-size: 30px;
     text-align: center;
   }
+  
+  .experience-container {
+    width: 95%;
+    padding: 10px 5px;
+    margin-top: 1rem;
+  }
+  
+  .experience-cards-div {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
 }

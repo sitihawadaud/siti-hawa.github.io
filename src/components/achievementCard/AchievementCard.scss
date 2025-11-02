@@ -3,7 +3,12 @@
 .card-image {
   max-width: 100%;
   height: auto;
-  width: 250px;
+  width: 150px;
+  max-height: 150px;
+  background-color: #ffffff !important;
+  border-radius: 10px;
+  padding: 0.5rem;
+  object-fit: contain;
 }
 .card-title {
   color: $titleColor;
@@ -26,9 +31,18 @@
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 400px;
 }
 .certificate-detail-div {
   text-align: center;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .certificate-card:hover {
   box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
@@ -38,16 +52,19 @@
 }
 .certificate-image-div {
   position: relative;
-  height: 250px;
+  height: 180px;
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-shrink: 0;
 }
 .achievement-cards-div {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1rem 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5rem 1.5rem;
+  justify-items: center;
+  align-items: stretch;
 }
 .certificate-card-footer {
   display: flex;
@@ -74,4 +91,25 @@
 }
 span.certificate-tag:hover {
   background: $buttonHover;
+}
+
+/* Media Queries for Achievement Cards */
+@media (max-width: 768px) {
+  .achievement-cards-div {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1rem 1rem;
+  }
+  
+  .certificate-card {
+    min-height: 380px;
+  }
+  
+  .certificate-image-div {
+    height: 150px;
+  }
+  
+  .card-image {
+    width: 120px;
+    max-height: 120px;
+  }
 }

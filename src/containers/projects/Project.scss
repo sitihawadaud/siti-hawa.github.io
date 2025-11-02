@@ -12,7 +12,21 @@
 .repo-cards-div-main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  gap: 1rem 1rem;
+  gap: 1.5rem 1.5rem;
+  justify-items: center;
+  align-items: stretch;
+}
+
+.repo-card-div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.repo-card-div:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
 
 /* Media Query */
@@ -28,5 +42,10 @@
   }
   .repo-cards-div-main {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem 1rem;
+  }
+  
+  .repo-card-div:hover {
+    transform: translateY(-3px);
   }
 }

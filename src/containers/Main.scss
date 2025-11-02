@@ -5,3 +5,35 @@
   color: white;
   transition: "0.1s";
 }
+
+/* Global responsive styles */
+@media (max-width: 768px) {
+  .main {
+    padding: 0 10px;
+    overflow-x: hidden;
+  }
+  
+  /* Ensure no horizontal scroll */
+  * {
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* Fix common mobile issues */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Adjust spacing for mobile */
+  .main > div {
+    margin-bottom: 40px;
+  }
+  
+  /* Debug: Ensure sections are visible */
+  #experience {
+    min-height: 200px;
+    position: relative;
+    z-index: 1;
+  }
+}

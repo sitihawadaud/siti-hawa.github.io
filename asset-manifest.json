@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/siti-hawa.github.io/static/css/main.4ff93b52.css",
-    "main.js": "/siti-hawa.github.io/static/js/main.cc76c365.js",
-    "static/css/64.f1e1f9c7.chunk.css": "/siti-hawa.github.io/static/css/64.f1e1f9c7.chunk.css",
+    "main.css": "/siti-hawa.github.io/static/css/main.609a606f.css",
+    "main.js": "/siti-hawa.github.io/static/js/main.2230f8dc.js",
+    "static/css/64.5af79d0c.chunk.css": "/siti-hawa.github.io/static/css/64.5af79d0c.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/siti-hawa.github.io/static/js/64.56dc6704.chunk.js",
     "static/css/769.41537c6e.chunk.css": "/siti-hawa.github.io/static/css/769.41537c6e.chunk.css",
     "static/js/769.bda0d7b7.chunk.js": "/siti-hawa.github.io/static/js/769.bda0d7b7.chunk.js",
@@ -19,16 +19,15 @@
     "static/media/skill.svg": "/siti-hawa.github.io/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "static/media/resume.pdf": "/siti-hawa.github.io/static/media/resume.f0f733dd3cd732b39262.pdf",
     "index.html": "/siti-hawa.github.io/index.html",
-    "static/media/googleAssistant.svg": "/siti-hawa.github.io/static/media/googleAssistant.3227e84a89a1650db619931f966c309d.svg",
-    "main.4ff93b52.css.map": "/siti-hawa.github.io/static/css/main.4ff93b52.css.map",
-    "main.cc76c365.js.map": "/siti-hawa.github.io/static/js/main.cc76c365.js.map",
-    "64.f1e1f9c7.chunk.css.map": "/siti-hawa.github.io/static/css/64.f1e1f9c7.chunk.css.map",
+    "main.609a606f.css.map": "/siti-hawa.github.io/static/css/main.609a606f.css.map",
+    "main.2230f8dc.js.map": "/siti-hawa.github.io/static/js/main.2230f8dc.js.map",
+    "64.5af79d0c.chunk.css.map": "/siti-hawa.github.io/static/css/64.5af79d0c.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/siti-hawa.github.io/static/js/64.56dc6704.chunk.js.map",
     "769.41537c6e.chunk.css.map": "/siti-hawa.github.io/static/css/769.41537c6e.chunk.css.map",
     "769.bda0d7b7.chunk.js.map": "/siti-hawa.github.io/static/js/769.bda0d7b7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ff93b52.css",
-    "static/js/main.cc76c365.js"
+    "static/css/main.609a606f.css",
+    "static/js/main.2230f8dc.js"
   ]
 }

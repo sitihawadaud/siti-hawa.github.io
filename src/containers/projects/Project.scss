@@ -39,13 +39,28 @@
   .project-title {
     font-size: 30px;
     text-align: center;
+    margin-bottom: 2rem;
   }
+  
   .repo-cards-div-main {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1rem 1rem;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 0 1rem;
   }
   
   .repo-card-div:hover {
     transform: translateY(-3px);
+  }
+}
+
+@media (max-width: 480px) {
+  .project-title {
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .repo-cards-div-main {
+    padding: 0 0.5rem;
+    gap: 0.8rem;
   }
 }

@@ -93,3 +93,55 @@
   background-color: $buttonColor !important;
   box-shadow: 0px 0px 16px $darkBoxShadow;
 }
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .repo-card-div {
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .repo-name {
+    font-size: 20px;
+    height: auto;
+    white-space: normal;
+    margin-bottom: 0.5rem;
+  }
+  
+  .repo-description {
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+  }
+  
+  .repo-stats {
+    font-size: 12px;
+    flex-wrap: wrap;
+  }
+  
+  .repo-left-stat {
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .repo-card-div {
+    padding: 1rem;
+  }
+  
+  .repo-name {
+    font-size: 18px;
+  }
+  
+  .repo-description {
+    font-size: 13px;
+  }
+  
+  .repo-stats {
+    font-size: 11px;
+  }
+  
+  .repo-left-stat span {
+    margin-right: 0.5rem;
+  }
+}

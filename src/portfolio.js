@@ -394,7 +394,7 @@ const taskForceSection = {
     {
       title: "DevOps Task Force",
       organization: "Universiti Malaya",
-      logo: require("./assets/images/developerActivity.svg"),
+      logo: require("./assets/images/umLogo.png"),
       role: "Active Member",
       duration: "Present",
       description: "Member of internal task force to design and standardize UM's system development framework. Contributed to CI/CD structure and Git workflow recommendations for multi-unit teams.",
@@ -407,7 +407,7 @@ const taskForceSection = {
     {
       title: "AI Tech Task Force",
       organization: "Universiti Malaya",
-      logo: require("./assets/images/googleAssistant.svg"),
+      logo: require("./assets/images/umLogo.png"),
       role: "Research Member",
       duration: "Present",
       description: "Involved in researching AI implementation and potential for development automation. Evaluated effectiveness of AI-assisted coding and system monitoring tools.",

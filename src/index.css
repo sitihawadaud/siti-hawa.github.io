@@ -25,12 +25,40 @@ body {
   font: 19px / 23px Montserrat, "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* Ensure images are responsive by default */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Prevent horizontal overflow */
+* {
+  box-sizing: border-box;
 }
 /* Media Query */
 @media (max-width: 1380px) {
   html,
   body {
-    font-size: rem;
+    font-size: 17px;
     line-height: normal;
+  }
+}
+
+@media (max-width: 768px) {
+  html,
+  body {
+    font-size: 15px;
+    line-height: 1.4;
+  }
+}
+
+@media (max-width: 480px) {
+  html,
+  body {
+    font-size: 14px;
+    line-height: 1.3;
   }
 }

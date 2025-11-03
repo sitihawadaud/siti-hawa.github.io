@@ -1,0 +1,15 @@
+{
+  "short_name": "Siti Hawa Portfolio",
+  "name": "Siti Hawa Developer Portfolio",
+  "icons": [
+    {
+      "src": "/women.png",
+      "sizes": "any",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#6c63ff",
+  "background_color": "#ffffff"
+}

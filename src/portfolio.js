@@ -209,7 +209,7 @@ const workExperiences = {
       desc: "Technical Lead for Human Resource system development and API integration, responsible for full-stack development and team coordination.",
       descBullets: [
         "🎯 **Technical Leadership**: Currently serving as Technical Lead for Human Resource System development, overseeing core modules and team coordination",
-        "🏗️ **System Development**: Developed core modules including Leave Management, User Management, Staff Profile, Organization Structure, SSPA, Promotion Systems (Academic & Non-Academic), File Management, and Allowance Management",
+        "🏗️ **System Development**: Developed core modules including Leave Management, User Management, Staff Profile, Organization Structure, SSPA, Promotion (Academic & Non-Academic), File Management, and Allowances",
         "🔗 **API Integration**: Built and maintained eHR API for seamless integration with HRIS, UMExpert, and UMTouch systems",
         "⚙️ **Technology Stack**: Working with Laravel, Livewire, Tailwind CSS, JavaScript, and PostgreSQL for scalable web application development",
         "🛠️ **Release Management**: Appointed as Release Gatekeeper, responsible for controlling and overseeing system application releases across JTM",
@@ -217,7 +217,7 @@ const workExperiences = {
         "�🔄 **DevOps & Version Control**: Acting as GitLab Gatekeeper for code review and merge processes, ensuring code quality and team collaboration",
         "📊 **Database Management**: Structured and maintained migration files, ensuring data integrity and system scalability",
         "🚀 **Task Force Participation**: Active member of DevOps Task Force and AI Tech Task Force, contributing to organizational digital transformation",
-        "👥 **Team Collaboration**: Working closely with HRIS team and other stakeholders to ensure consistent system integration and user experience"
+        "👥 **Team Collaboration**: Working closely with development and support teams and other stakeholders to ensure consistent system development and integration"
       ]
     },
     {
@@ -227,15 +227,13 @@ const workExperiences = {
       date: "July 2020 – July 2021",
       desc: "Full-stack developer responsible for enterprise applications development, client support, and legacy system modernization initiatives.",
       descBullets: [
-        "💼 Led development of comprehensive HRM system with employee management, payroll, and attendance tracking",
-        "🏢 Built co8 Workspace management platform supporting 500+ concurrent users",
+        "💼 Led development of new HRM system with related module of human resource management",
+        "🏢 Maintained co8 Workspace management platform",
         "🔧 Maintained and enhanced legacy C# applications serving 20+ enterprise clients",
         "⚡ Improved application performance by 40% through database indexing and query optimization",
         "🎯 Resolved 95% of client support tickets within SLA timeframes",
         "🔄 Modernized legacy codebase by migrating critical components to Laravel framework",
         "📱 Developed responsive Vue.js interfaces compatible across desktop and mobile devices",
-        "🚀 Implemented automated backup systems and disaster recovery procedures",
-        "📊 Created comprehensive documentation and user manuals for all developed systems"
       ]
     },
     {
@@ -269,47 +267,39 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Key Projects",
-  subtitle: "SYSTEMS & TECHNICAL LEADERSHIP",
+  title: "Current Projects",
+  subtitle: "ENTERPRISE SYSTEMS DEVELOPMENT AT UNIVERSITI MALAYA",
   projects: [
     {
       image: require("./assets/images/umLogo.png"),
       projectName: "eHR System - Universiti Malaya",
-      projectDesc: "**Role:** Technical Lead & System Architect | **Tech:** Laravel, Livewire, Tailwind, PostgreSQL | **Impact:** Enterprise HR system serving 5000+ staff | **Key Contributions:** • Led architecture design and core module development • Built Leave Management, User Profile, and Promotion systems • Established coding standards and development workflows • Integrated with multiple university systems for seamless data flow",
+      projectDesc: "**Tech:** Laravel, Livewire, Tailwind, PostgreSQL | **Status:** Production | **Impact:** Serving 5000+ UM staff daily | **Key Contributions:** • Led complete system architecture and development lifecycle • Built core modules: Leave, User Profiles, Organization Chart, SSPA, Sync Process, Promotion workflows • Established development standards and GitLab workflow processes • Ongoing development, maintenance and feature enhancements",
       footerLink: [
         {
           name: "🌐 Live System",
           url: "https://ehr.um.edu.my"
-        },
-        {
-          name: "� LinkedIn Profile",
-          url: "https://www.linkedin.com/in/siti-hawa-mad-daud/"
         }
       ]
     },
     {
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      projectName: "API Integration Hub - Universiti Malaya",
-      projectDesc: "**Role:** Backend Developer & Integration Specialist | **Tech:** Laravel API, PostgreSQL | **Impact:** Seamless data flow between 3 major systems | **Key Contributions:** • Designed secure API endpoints for inter-system communication • Ensured data synchronization between eHR, HRIS, and UMExpert • Established API documentation and integration protocols • Built robust authentication and authorization layers",
+      image: require("./assets/images/umLogo.png"),
+      projectName: "eHR API Integration - Universiti Malaya",
+      projectDesc: "**Tech:** Laravel API, PostgreSQL, RESTful Services | **Status:** Production | **Impact:** Seamless integration between 3+ enterprise systems | **Key Contributions:** • Built complete system base structure • Developed secure API endpoints for system integration • Built data synchronization pipelines between eHR, HRIS, and UMExpert • Created comprehensive API documentation and testing protocols • Ongoing monitoring and optimizing API performance for enterprise load",
       footerLink: [
         {
-          name: "� API Documentation",
+          name: "🔗 API Documentation",
           url: "https://ehrapi.um.edu.my"
-        }
+        },
       ]
     },
     {
-      image: require("./assets/images/b2beLogo.png"),
-      projectName: "Enterprise Workspace Platform - B2BE GSS",
-      projectDesc: "**Role:** Full-Stack Developer | **Tech:** Laravel, Vue.js, PostgreSQL, C# | **Impact:** 500+ concurrent users, 20+ enterprise clients | **Key Contributions:** • Developed comprehensive HRM and workspace management systems • Built responsive UI components and robust backend APIs • Achieved 40% performance improvement through optimization • Modernized legacy C# applications to Laravel framework",
+      image: require("./assets/images/umLogo.png"),
+      projectName: "Career System - Universiti Malaya",
+      projectDesc: "**Tech:** Laravel, Vue.js, Tailwind, PostgreSQL | **Status:** Production | **Impact:** Centralized platform serving both internal and external candidates | **Features:** JobStreet-style platform for UM job applications | **Key Contributions:** • Built complete system base structure  • Creating comprehensive job portal for external candidates and UM staff for job posting and application workflows • Integrating with eHR system for seamless staff transition processes",
       footerLink: [
         {
-          name: "🏢 Company Profile",
-          url: "https://www.b2begss.com"
-        },
-        {
-          name: "💻 GitHub",
-          url: "https://github.com/siti-hawa"
+          name: "🌐 Live System",
+          url: "https://career.um.edu.my"
         }
       ]
     }
@@ -327,58 +317,34 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "🎓 Academic Excellence",
+      title: "🎓 Academic Excellence Foundation",
       subtitle:
-        "Vice Chancellor's Award recipient for both Bachelor and Diploma degrees with outstanding academic performance. Achieved CGPA 3.81 (Bachelor) and CGPA 3.78 (Diploma) demonstrating consistent academic excellence throughout university studies.",
+        "Built strong academic foundation with Vice Chancellor's Awards for both Bachelor (CGPA 3.81) and Diploma (CGPA 3.78) degrees. Consistently achieved outstanding academic performance at UiTM, demonstrating dedication to learning and excellence that laid the groundwork for professional success.",
       image: require("./assets/images/uitmLogo.png"),
       imageAlt: "Academic Excellence",
-      footerLink: [
-        {
-          name: "View GitHub Profile",
-          url: "https://github.com/siti-hawa"
-        },
-        {
-          name: "Connect on LinkedIn",
-          url: "https://www.linkedin.com/in/siti-hawa-mad-daud/"
-        }
-      ]
+      footerLink: []
     },
     {
-      title: "🥇 Gold Award Winner",
-      subtitle:
-        "Gold Award – International Jasin Multimedia & Computer Science Exhibition (2020). Recognized for innovative project presentation and technical excellence in multimedia and computer science field during Bachelor studies.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Gold Award Winner",
-      footerLink: [
-        {
-          name: "Portfolio Projects",
-          url: "https://github.com/siti-hawa"
-        },
-        {
-          name: "Professional Profile",
-          url: "https://www.linkedin.com/in/siti-hawa-mad-daud/"
-        }
-      ]
+      title: "🚀 B2BE Career Growth",
+      subtitle: "Rapid professional development at B2BE GSS: Progressed from intern to full-time developer, then promoted to lead HRM project development. Successfully delivered enterprise workspace solutions and comprehensive HRM systems, gaining valuable experience in full-stack development and project leadership.",
+      image: require("./assets/images/b2beLogo.png"),
+      imageAlt: "B2BE Career Growth",
+      footerLink: []
     },
     {
-      title: "🏆 Best Presenter Award",
-      subtitle: "Best Presenter – Data Mining & AI Exhibition (2019). Demonstrated excellent communication skills and deep understanding of data mining and artificial intelligence concepts through engaging presentation delivery.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Best Presenter",
-      footerLink: [
-        {name: "GitHub Repository", url: "https://github.com/siti-hawa"},
-        {name: "LinkedIn Profile", url: "https://www.linkedin.com/in/siti-hawa-mad-daud/"}
-      ]
-    },
-    {
-      title: "💼 Professional Growth",
-      subtitle: "Successfully transitioned from intern to full-time developer, then promoted to Technical Lead role. Active participation in programming competitions and e-Sports tournaments, demonstrating well-rounded technical and leadership capabilities.",
+      title: "🏛️ UM Technical Leadership",
+      subtitle: "Transitioned to Technical Lead role at Universiti Malaya. Leading the development of eHR, eHR API, and Career System projects while contributing to organizational digital transformation through active participation in DevOps and AI Task Forces.",
       image: require("./assets/images/umLogo.png"),
-      imageAlt: "Professional Growth",
-      footerLink: [
-        {name: "Career Journey", url: "https://github.com/siti-hawa"},
-        {name: "Professional Network", url: "https://www.linkedin.com/in/siti-hawa-mad-daud/"}
-      ]
+      imageAlt: "UM Technical Leadership",
+      footerLink: []
+    },
+    {
+      title: "🏅 Professional Recognition Awards",
+      subtitle:
+        "Recognized for exceptional professional performance at Universiti Malaya with consecutive awards: Sijil Perkhidmatan Cemerlang (2024) and Anugerah Perkhidmatan Cemerlang (2025).",
+      image: require("./assets/images/umLogo.png"),
+      imageAlt: "Professional Awards",
+      footerLink: []
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -446,7 +412,7 @@ const taskForceSection = {
     {
       title: "DevOps Task Force",
       organization: "Universiti Malaya",
-      logo: require("./assets/images/developerActivity.svg"),
+      logo: require("./assets/images/umLogo.png"),
       role: "Active Member",
       duration: "Present",
       description: "Member of internal task force to design and standardize UM's system development framework. Contributed to CI/CD structure and Git workflow recommendations for multi-unit teams.",
@@ -459,7 +425,7 @@ const taskForceSection = {
     {
       title: "AI Tech Task Force",
       organization: "Universiti Malaya",
-      logo: require("./assets/images/googleAssistant.svg"),
+      logo: require("./assets/images/umLogo.png"),
       role: "Research Member",
       duration: "Present",
       description: "Involved in researching AI implementation and potential for development automation. Evaluated effectiveness of AI-assisted coding and system monitoring tools.",

@@ -12,7 +12,8 @@ import {
   resumeSection,
   professionalSummary,
   taskForceSection,
-  educationInfo
+  educationInfo,
+  aspirationsSection
 } from "../../portfolio";
 
 function Header() {
@@ -24,6 +25,7 @@ function Header() {
   const viewExperience = workExperiences.display;
   const viewProjects = bigProjects.display;
   const viewAchievement = achievementSection.display;
+  const viewAspirations = aspirationsSection.display;
   const viewResume = resumeSection.display;
 
   return (
@@ -60,7 +62,7 @@ function Header() {
           )}
           {viewEducation && (
             <li>
-              <a href="#educations">Education</a>
+              <a href="#education">Education</a>
             </li>
           )}
           {viewExperience && (
@@ -76,6 +78,11 @@ function Header() {
           {viewAchievement && (
             <li>
               <a href="#achievements">Achievements</a>
+            </li>
+          )}
+          {viewAspirations && (
+            <li>
+              <a href="#aspirations">Goals</a>
             </li>
           )}
           {viewResume && (

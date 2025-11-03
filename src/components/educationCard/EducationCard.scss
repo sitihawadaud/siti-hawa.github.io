@@ -116,23 +116,70 @@
 @media (max-width: 768px) {
   .education-card {
     text-align: center;
+    padding: 1rem;
+    margin-bottom: 2rem;
   }
+  
   .education-card-right {
     max-width: 100%;
   }
+  
   .education-card-border {
     width: 100%;
+    margin: 1rem auto;
   }
+  
   .education-roundedimg {
-    margin-top: 10px;
-    width: 5rem;
-    height: 5rem;
-    margin-bottom: 1rem;
-    margin-right: 0;
+    margin: 10px auto 1rem auto;
+    width: 4rem;
+    height: 4rem;
     padding: 0.3rem;
   }
+  
+  .education-text-school {
+    font-size: 20px;
+    height: auto;
+    white-space: normal;
+    margin-bottom: 0.5rem;
+  }
+  
+  .education-text-subHeader {
+    font-size: 16px;
+    padding-top: 0.3rem;
+  }
+  
+  .education-text-duration {
+    font-size: 14px;
+    padding-top: 0.3rem;
+  }
+  
   .education-text-bullets > ul {
-    max-width: 80%;
+    max-width: 90%;
     margin: auto;
+    text-align: left;
+    padding-left: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .education-card {
+    padding: 0.5rem;
+  }
+  
+  .education-text-school {
+    font-size: 18px;
+  }
+  
+  .education-text-subHeader {
+    font-size: 14px;
+  }
+  
+  .education-text-duration {
+    font-size: 12px;
+  }
+  
+  .education-roundedimg {
+    width: 3.5rem;
+    height: 3.5rem;
   }
 }

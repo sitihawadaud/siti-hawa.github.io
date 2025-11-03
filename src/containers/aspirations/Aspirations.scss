@@ -1,0 +1,165 @@
+/* Aspirations Section */
+
+.aspirations-main-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.aspirations-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.aspirations-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #55198b;
+}
+
+.aspirations-title.dark-mode {
+  color: #bb6bd9;
+}
+
+.aspirations-subtitle {
+  font-size: 1.1rem;
+  margin-bottom: 0;
+  max-width: 600px;
+}
+
+.aspirations-cards-div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.aspiration-card {
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.aspiration-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.aspiration-card-light {
+  background-color: #ffffff;
+  border: 1px solid #e1e8ed;
+}
+
+.aspiration-card-dark {
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+}
+
+.aspiration-content {
+  text-align: left;
+}
+
+.aspiration-card-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #55198b;
+}
+
+.aspiration-card-title.dark-mode {
+  color: #bb6bd9;
+}
+
+.aspiration-card-desc {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #666;
+  margin: 0;
+}
+
+.aspiration-card-desc.dark-mode {
+  color: #ccc;
+}
+
+.motto-section {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.motto-quote {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #55198b;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 1rem;
+  border-left: 4px solid #55198b;
+  position: relative;
+}
+
+.motto-quote.dark-mode {
+  border-left-color: #bb6bd9;
+}
+
+.motto-quote::before {
+  content: "\201C";
+  font-size: 3rem;
+  position: absolute;
+  top: -10px;
+  left: -20px;
+  color: #55198b;
+}
+
+.motto-quote.dark-mode::before {
+  color: #bb6bd9;
+}
+
+.motto-quote::after {
+  content: "\201D";
+  font-size: 3rem;
+  position: absolute;
+  bottom: -40px;
+  right: -20px;
+  color: #55198b;
+}
+
+.motto-quote.dark-mode::after {
+  color: #bb6bd9;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .aspirations-cards-div {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .aspirations-title {
+    font-size: 2rem;
+  }
+  
+  .aspiration-card {
+    padding: 1.2rem;
+  }
+  
+  .aspiration-card-title {
+    font-size: 1.2rem;
+  }
+  
+  .motto-quote {
+    font-size: 1.1rem;
+    padding: 0.8rem;
+  }
+}

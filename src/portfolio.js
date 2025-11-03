@@ -384,59 +384,7 @@ const achievementSection = {
   display: true // Set false to hide this section, defaults to true
 };
 
-// Blogs Section
-
-const blogSection = {
-  title: "Technical Insights",
-  subtitle:
-    "Sharing knowledge about HR system development, Laravel best practices, and API integration patterns.",
-  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
-  blogs: [
-    {
-      url: "#",
-      title: "Building Scalable HR Systems with Laravel and Vue.js",
-      description:
-        "Best practices and architectural patterns for developing enterprise-level HR management systems using Laravel backend and Vue.js frontend."
-    },
-    {
-      url: "#",
-      title: "RESTful API Design for System Integration",
-      description:
-        "Guidelines and implementation strategies for creating robust APIs that connect multiple HR systems and platforms."
-    }
-  ],
-  display: false // Set false to hide this section, defaults to true
-};
-
-// Talks Sections
-
-const talkSection = {
-  title: "TALKS & PRESENTATIONS",
-  subtitle: emoji(
-    "SHARING KNOWLEDGE ABOUT HR SYSTEM DEVELOPMENT AND BEST PRACTICES 🎯"
-  ),
-
-  talks: [
-    {
-      title: "Modern HR System Architecture",
-      subtitle: "Internal Tech Talk at Universiti Malaya",
-      slides_url: "#",
-      event_url: "#"
-    }
-  ],
-  display: false // Set false to hide this section, defaults to true
-};
-
-// Podcast Section
-
-const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "SHARING INSIGHTS ABOUT TECHNOLOGY AND SYSTEM DEVELOPMENT",
-
-  // Please Provide with Your Podcast embeded Link
-  podcast: [],
-  display: false // Set false to hide this section, defaults to true
-};
+// Note: Blogs, Talks, and Podcast sections removed to optimize portfolio
 
 // Task Force Initiatives Section
 const taskForceSection = {
@@ -518,46 +466,7 @@ const contactInfo = {
   email_address: ""
 };
 
-// Twitter Section
-
-const twitterDetails = {
-  userName: "", //Replace "twitter" with your twitter username without @
-  display: false // Set true to display this section, defaults to false
-};
-
-// Languages Section
-const languagesSection = {
-  title: "Languages",
-  subtitle: "Languages I can communicate in",
-  languages: [
-    {
-      language: "Malay",
-      proficiency: "Proficient"
-    },
-    {
-      language: "English", 
-      proficiency: "Advanced"
-    }
-  ],
-  display: false
-};
-
-// Hobbies Section
-const hobbiesSection = {
-  title: "Hobbies & Interests",
-  subtitle: "What I love to do in my free time",
-  hobbies: [
-    {
-      hobby: "Netball",
-      description: "Enjoys teamwork, leadership, and physical activity"
-    },
-    {
-      hobby: "Volleyball",
-      description: "Passionate about team sports and staying active"
-    }
-  ],
-  display: false
-};
+// Note: Twitter, Languages, and Hobbies sections removed to optimize portfolio
 
 // Goals and Vision Section
 const aspirationsSection = {
@@ -585,13 +494,7 @@ const aspirationsSection = {
   display: true
 };
 
-// References Section - Disabled for public portfolio
-const referencesSection = {
-  title: "Professional References",
-  subtitle: "Available upon request",
-  references: [],
-  display: false
-};const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
@@ -605,17 +508,10 @@ export {
   openSource,
   bigProjects,
   achievementSection,
-  blogSection,
-  talkSection,
-  podcastSection,
   contactInfo,
-  twitterDetails,
   isHireable,
   resumeSection,
-  languagesSection,
-  hobbiesSection,
   aspirationsSection,
-  referencesSection,
   taskForceSection,
   professionalSummary
 };

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/siti-hawa.github.io/static/css/main.609a606f.css",
-    "main.js": "/siti-hawa.github.io/static/js/main.c93a3ca7.js",
+    "main.js": "/siti-hawa.github.io/static/js/main.cf509e41.js",
     "static/css/64.5af79d0c.chunk.css": "/siti-hawa.github.io/static/css/64.5af79d0c.chunk.css",
     "static/js/64.98920275.chunk.js": "/siti-hawa.github.io/static/js/64.98920275.chunk.js",
     "static/css/769.41537c6e.chunk.css": "/siti-hawa.github.io/static/css/769.41537c6e.chunk.css",
@@ -18,7 +18,7 @@
     "static/media/resume.pdf": "/siti-hawa.github.io/static/media/resume.f0f733dd3cd732b39262.pdf",
     "index.html": "/siti-hawa.github.io/index.html",
     "main.609a606f.css.map": "/siti-hawa.github.io/static/css/main.609a606f.css.map",
-    "main.c93a3ca7.js.map": "/siti-hawa.github.io/static/js/main.c93a3ca7.js.map",
+    "main.cf509e41.js.map": "/siti-hawa.github.io/static/js/main.cf509e41.js.map",
     "64.5af79d0c.chunk.css.map": "/siti-hawa.github.io/static/css/64.5af79d0c.chunk.css.map",
     "64.98920275.chunk.js.map": "/siti-hawa.github.io/static/js/64.98920275.chunk.js.map",
     "769.41537c6e.chunk.css.map": "/siti-hawa.github.io/static/css/769.41537c6e.chunk.css.map",
@@ -26,6 +26,6 @@
   },
   "entrypoints": [
     "static/css/main.609a606f.css",
-    "static/js/main.c93a3ca7.js"
+    "static/js/main.cf509e41.js"
   ]
 }

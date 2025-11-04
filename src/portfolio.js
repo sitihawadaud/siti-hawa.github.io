@@ -25,8 +25,7 @@ const greeting = {
   subTitle: emoji(
     "IT Officer at Universiti Malaya with 4+ years of experience in system development 🚀. Passionate about improving operations through technology and exploring AI & automation in system development."
   ),
-  resumeLink:
-    "", // Add your resume link here
+  resumeLink: true, // Add your resume link here
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -208,16 +207,12 @@ const workExperiences = {
       date: "July 2021 – Present",
       desc: "Technical Lead for Human Resource system development, responsible for full-stack development (Web & API) and team coordination.",
       descBullets: [
-        "🎯 **Technical Leadership**: Currently serving as Technical Lead for Human Resource System development, overseeing core modules and team coordination",
-        "🏗️ **System Development**: Developed core modules including Leave, User Management, Staff Profile, Organization Structure, SSPA, Promotion (Academic & Non-Academic), File Management, and Allowances",
-        "🔗 **API Integration**: Built and maintained eHR API for seamless integration with HRIS, UMExpert, and UMTouch systems",
-        "⚙️ **Technology Stack**: Working with Laravel, Livewire, Tailwind CSS, JavaScript, and PostgreSQL for scalable web application development",
-        "🛠️ **Release Management**: Appointed as Release Gatekeeper, responsible for controlling and overseeing system application releases",
-        "� **System Deployment**: Designated as System Deployer, responsible for production deployments of human resource applications and ensuring system reliability",
-        "�🔄 **DevOps & Version Control**: Acting as GitLab Gatekeeper for code review and merge processes, ensuring code quality and team collaboration",
-        "📊 **Database Management**: Structured and maintained migration files, ensuring data integrity and system scalability",
-        "🚀 **Task Force Participation**: Active member of DevOps Task Force and AI Tech Task Force, contributing to organizational digital transformation",
-        "👥 **Team Collaboration**: Working closely with development and support teams and other stakeholders to ensure consistent system development and integration"
+        "🎯 **Technical Leadership**: Leading HR System development, overseeing core modules (Leave, User Management, Staff Profile, Organization Structure, Promotion workflows) and team coordination",
+        "🔗 **API Integration**: Built and maintained eHR API enabling seamless integration between HRIS, UMExpert, and UMTouch systems",
+        "⚙️ **Full-Stack Development**: Developing scalable web applications using Laravel, Livewire, Tailwind CSS, JavaScript, and PostgreSQL",
+        "🛠️ **Release Management**: Appointed as Release Gatekeeper and System Deployer, responsible for production deployments and ensuring system reliability",
+        "🔄 **DevOps Leadership**: Acting as GitLab Gatekeeper for code review processes and active member of DevOps & AI Tech Task Forces",
+        "📊 **System Architecture**: Structured database migrations and maintained system scalability for enterprise-level applications"
       ]
     },
     {
@@ -227,13 +222,11 @@ const workExperiences = {
       date: "July 2020 – July 2021",
       desc: "Full-stack developer responsible for enterprise applications development, client support, and legacy system modernization initiatives.",
       descBullets: [
-        "💼 Led development of new HRM system with related module of human resource management",
-        "🏢 Maintained co8 Workspace management platform",
-        "🔧 Maintained and enhanced legacy C# applications serving 20+ enterprise clients",
-        "⚡ Improved application performance by 40% through database indexing and query optimization",
-        "🎯 Resolved 95% of client support tickets within SLA timeframes",
-        "🔄 Modernized legacy codebase by migrating critical components to Laravel framework",
-        "📱 Developed responsive Vue.js interfaces compatible across desktop and mobile devices",
+        "💼 Led development of new HRM system with comprehensive human resource management modules",
+        "⚡ Improved application performance by 40% through database indexing and query optimization for 20+ enterprise clients",
+        "🔄 Modernized legacy C# applications by migrating critical components to Laravel framework",
+        "📱 Developed responsive Vue.js interfaces for co8 Workspace platform, ensuring cross-device compatibility",
+        "🎯 Resolved 95% of client support tickets within SLA timeframes, maintaining high client satisfaction"
       ]
     },
     {
@@ -244,13 +237,10 @@ const workExperiences = {
       desc: "Software development intern focused on learning enterprise development practices and contributing to production systems.",
       descBullets: [
         "💻 Contributed to co8 Workspace system development using Laravel, Vue.js, and PostgreSQL",
-        "📚 Mastered Git workflows, branching strategies, and collaborative development practices",
-        "🧪 Participated in agile development cycles including sprint planning and daily standups",
-        "🎨 Developed 15+ reusable Vue.js components for improved UI consistency",
-        "🔍 Assisted in debugging complex issues and performed thorough system testing",
-        "📖 Created technical documentation and API guides for internal development team",
-        "🏆 Completed internship with exceptional performance rating and job offer",
-        "🤝 Collaborated effectively with senior developers and learned industry best practices"
+        "🎨 Developed 15+ reusable Vue.js components, improving UI consistency across the platform",
+        "🧪 Participated in agile development cycles (sprint planning, daily standups) and collaborative workflows",
+        "🔍 Assisted in debugging complex issues, performed thorough system testing, and created technical documentation",
+        "🏆 Completed internship with exceptional performance rating, resulting in full-time job offer"
       ]
     }
   ]
@@ -271,9 +261,9 @@ const bigProjects = {
   subtitle: "ENTERPRISE SYSTEMS DEVELOPMENT AT UNIVERSITI MALAYA",
   projects: [
     {
-      image: require("./assets/images/umLogo.png"),
+      image: require("./assets/images/ehr-system-screenshot.png"),
       projectName: "eHR System - Universiti Malaya",
-      projectDesc: "**Tech:** Laravel, Livewire, Tailwind, PostgreSQL | **Status:** Production | **Impact:** Serving 5000+ UM staff daily | **Key Contributions:** • Led complete system architecture and development lifecycle • Built core modules: Leave, User Profiles, Organization Chart, SSPA, Sync Process, Promotion workflows • Established development standards and GitLab workflow processes • Ongoing development, maintenance and feature enhancements",
+      projectDesc: "**Tech:** Laravel, Livewire, Tailwind, PostgreSQL | **Status:** Production | **Impact:** Serving 5000+ UM staff daily | Led complete system architecture and development. Built core modules: Leave, User Profiles, Organization Chart, SSPA, Promotion workflows. Established development standards and GitLab workflows.",
       footerLink: [
         {
           name: "🌐 Live System",
@@ -282,9 +272,9 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/umLogo.png"),
+      image: require("./assets/images/ehr-api-screenshot.png"),
       projectName: "eHR API Integration - Universiti Malaya",
-      projectDesc: "**Tech:** Laravel API, PostgreSQL, RESTful Services | **Status:** Production | **Impact:** Seamless integration between 3+ enterprise systems | **Key Contributions:** • Built complete system base structure • Developed secure API endpoints for system integration • Built data synchronization pipelines between eHR, HRIS, and UMExpert • Created comprehensive API documentation and testing protocols • Ongoing monitoring and optimizing API performance for enterprise load",
+      projectDesc: "**Tech:** Laravel API, PostgreSQL, RESTful Services | **Status:** Production | **Impact:** Seamless integration between 3+ enterprise systems | Built secure API endpoints and data synchronization pipelines connecting eHR, HRIS, and UMExpert. Created comprehensive API documentation and testing protocols.",
       footerLink: [
         {
           name: "🔗 API Documentation",
@@ -293,9 +283,9 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/umLogo.png"),
+      image: require("./assets/images/career-screenshot.png"),
       projectName: "Career System - Universiti Malaya",
-      projectDesc: "**Tech:** Laravel, Vue.js, Tailwind, PostgreSQL | **Status:** Production | **Impact:** Centralized platform serving both internal and external candidates | **Features:** JobStreet-style platform for UM job applications | **Key Contributions:** • Built complete system base structure  • Creating comprehensive job portal for external candidates and UM staff for job posting and application workflows • Integrating with eHR system for seamless staff transition processes",
+      projectDesc: "**Tech:** Laravel, Vue.js, Tailwind, PostgreSQL | **Status:** Production | **Impact:** Centralized platform for internal and external candidates | JobStreet-style platform for UM job applications. Built comprehensive job portal with posting and application workflows, integrated with eHR system for seamless staff transitions.",
       footerLink: [
         {
           name: "🌐 Live System",
@@ -319,14 +309,14 @@ const achievementSection = {
     {
       title: "🎓 Academic Excellence Foundation",
       subtitle:
-        "Built strong academic foundation with Vice Chancellor's Awards for both Bachelor (CGPA 3.81) and Diploma (CGPA 3.78) degrees. Consistently achieved outstanding academic performance at UiTM, demonstrating dedication to learning and excellence that laid the groundwork for professional success.",
+        "Vice Chancellor's Awards for both Bachelor (CGPA 3.81) and Diploma (CGPA 3.78) degrees. Achieved outstanding academic performance at UiTM, demonstrating dedication to learning and excellence.",
       image: require("./assets/images/uitmLogo.png"),
       imageAlt: "Academic Excellence",
       footerLink: []
     },
     {
       title: "🚀 B2BE Career Growth",
-      subtitle: "Rapid professional development at B2BE GSS: Progressed from intern to full-time developer, then promoted to lead HRM project development. Successfully delivered enterprise workspace solutions and comprehensive HRM systems, gaining valuable experience in full-stack development and project leadership.",
+      subtitle: "Progressed from intern to full-time developer, then promoted to lead HRM project development at B2BE GSS. Successfully delivered enterprise workspace solutions and comprehensive HRM systems.",
       image: require("./assets/images/b2beLogo.png"),
       imageAlt: "B2BE Career Growth",
       footerLink: []
@@ -429,7 +419,7 @@ const contactInfo = {
   subtitle:
     "Feel free to connect with me on GitHub and LinkedIn to explore my work and professional journey.",
   number: "",
-  email_address: ""
+  email_address: "sitihawamaddaud08@gmail.com"
 };
 
 // Note: Twitter, Languages, and Hobbies sections removed to optimize portfolio

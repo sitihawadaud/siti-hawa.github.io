@@ -1,0 +1,143 @@
+/* ====================================================================
+   CONTOH TEMA WARNA MESRA PENGGUNA UNTUK PORTFOLIO
+   ====================================================================
+   
+   Pilih salah satu tema di bawah dan gantikan kandungan dalam _globalColor.scss
+   Setiap tema direka untuk:
+   - Kontras yang baik untuk kebolehbacaan
+   - Warna yang menenangkan mata
+   - Profesional dan moden
+   - Sesuai untuk portfolio IT/teknologi
+*/
+
+/* ====================================================================
+   TEMA 1: OCEAN BREEZE (Biru Lembut & Putih Bersih)
+   ====================================================================
+   Tema ini menggunakan warna biru yang menenangkan dengan sentuhan hijau.
+   Sesuai untuk portfolio yang profesional dan segar.
+*/
+
+// TEMA 1: OCEAN BREEZE
+$theme1-primary: #0f4c75;        // Biru navy yang dalam
+$theme1-secondary: #3282b8;      // Biru medium yang cerah
+$theme1-accent: #bbe1fa;         // Biru pastel yang lembut
+$theme1-success: #10b981;        // Hijau emerald untuk aksen positif
+$theme1-text-dark: #1f2937;     // Kelabu gelap untuk teks utama
+$theme1-text-light: #6b7280;    // Kelabu medium untuk teks sekunder
+$theme1-background: #ffffff;     // Putih bersih
+$theme1-background-alt: #f8fafc; // Kelabu sangat terang
+$theme1-background-card: #f1f5f9; // Kelabu terang untuk kad
+
+/* ====================================================================
+   TEMA 2: WARM EARTH (Coklat Hangat & Krim)
+   ====================================================================
+   Tema yang hangat dan welcoming dengan warna bumi.
+   Memberikan kesan profesional tetapi friendly.
+*/
+
+// TEMA 2: WARM EARTH
+$theme2-primary: #8b5a3c;        // Coklat medium yang hangat
+$theme2-secondary: #d2691e;      // Oren coklat yang cerah
+$theme2-accent: #f4e4bc;         // Krim yang lembut
+$theme2-success: #22c55e;        // Hijau segar untuk aksen
+$theme2-text-dark: #292524;     // Coklat gelap untuk teks
+$theme2-text-light: #78716c;    // Coklat medium untuk teks sekunder
+$theme2-background: #fefbf7;     // Krim sangat terang
+$theme2-background-alt: #faf7f2; // Krim terang
+$theme2-background-card: #f5f1eb; // Krim medium untuk kad
+
+/* ====================================================================
+   TEMA 3: FOREST GREEN (Hijau Semulajadi & Putih)
+   ====================================================================
+   Tema hijau yang segar dan natural, memberikan kesan growth dan stability.
+   Sesuai untuk portfolio yang menekankan sustainability atau growth.
+*/
+
+// TEMA 3: FOREST GREEN  
+$theme3-primary: #065f46;        // Hijau gelap yang stabil
+$theme3-secondary: #10b981;      // Hijau emerald yang vibrant
+$theme3-accent: #d1fae5;         // Hijau pastel yang segar
+$theme3-complementary: #7c3aed;  // Ungu sebagai warna pelengkap
+$theme3-text-dark: #1f2937;     // Kelabu gelap
+$theme3-text-light: #6b7280;    // Kelabu medium
+$theme3-background: #ffffff;     // Putih bersih
+$theme3-background-alt: #f9fafb; // Kelabu sangat terang
+$theme3-background-card: #f3f4f6; // Kelabu terang
+
+/* ====================================================================
+   TEMA 4: SUNSET GRADIENT (Oren Hangat & Merah Jambu)
+   ====================================================================
+   Tema yang warm dan creative dengan gradasi sunset.
+   Sesuai untuk portfolio yang ingin menonjolkan kreativiti.
+*/
+
+// TEMA 4: SUNSET GRADIENT
+$theme4-primary: #dc2626;        // Merah yang kuat
+$theme4-secondary: #f97316;      // Oren yang vibrant
+$theme4-accent: #fef3c7;         // Kuning pastel
+$theme4-complementary: #3b82f6;  // Biru sebagai balance
+$theme4-text-dark: #292524;     // Coklat gelap
+$theme4-text-light: #78716c;    // Coklat medium
+$theme4-background: #fffbeb;     // Kuning sangat terang
+$theme4-background-alt: #fef7ed; // Oren sangat terang
+$theme4-background-card: #fed7aa; // Oren terang
+
+/* ====================================================================
+   TEMA 5: MIDNIGHT PROFESSIONAL (Gelap Elegante)
+   ====================================================================
+   Tema gelap yang sophisticated untuk portfolio yang ingin kelihatan premium.
+   Sesuai untuk developer yang mahir dan berpengalaman.
+*/
+
+// TEMA 5: MIDNIGHT PROFESSIONAL
+$theme5-primary: #1e40af;        // Biru royal yang dalam
+$theme5-secondary: #3b82f6;      // Biru cerah
+$theme5-accent: #dbeafe;         // Biru sangat terang
+$theme5-gold: #fbbf24;          // Emas untuk aksen premium
+$theme5-text-dark: #f9fafb;     // Putih untuk teks pada background gelap
+$theme5-text-light: #d1d5db;    // Kelabu terang
+$theme5-background: #111827;     // Gelap utama
+$theme5-background-alt: #1f2937; // Gelap medium
+$theme5-background-card: #374151; // Gelap terang untuk kad
+
+/* ====================================================================
+   CARA PENGGUNAAN:
+   ====================================================================
+   
+   1. Pilih tema yang anda suka dari contoh di atas
+   2. Salin pembolehubah tema yang dipilih
+   3. Gantikan warna dalam fail _globalColor.scss dengan tema pilihan
+   4. Sesuaikan jika perlu mengikut citarasa peribadi
+   
+   CONTOH PENGGANTIAN UNTUK TEMA 1 (OCEAN BREEZE):
+   
+   $buttonColor: #0f4c75;           // Ganti dengan theme1-primary
+   $buttonHover: #3282b8;           // Ganti dengan theme1-secondary  
+   $titleColor: #0f4c75;            // Ganti dengan theme1-primary
+   $textColor: #1f2937;             // Ganti dengan theme1-text-dark
+   $subTitle: #6b7280;              // Ganti dengan theme1-text-light
+   $lightBackground1: #ffffff;       // Ganti dengan theme1-background
+   $lightBackground2: #f8fafc;      // Ganti dengan theme1-background-alt
+   $lightBackground3: #f1f5f9;      // Ganti dengan theme1-background-card
+   
+   Dan seterusnya...
+*/
+
+/* ====================================================================
+   TIPS UNTUK WARNA MESRA PENGGUNA:
+   ====================================================================
+   
+   ✅ BAIK:
+   - Kontras minimum 4.5:1 untuk teks biasa
+   - Kontras minimum 3:1 untuk teks besar
+   - Warna yang konsisten sepanjang portfolio
+   - Tidak terlalu terang atau menyilaukan
+   - Mudah dibaca dalam pelbagai pencahayaan
+   
+   ❌ ELAKKAN:
+   - Kontras yang terlalu rendah
+   - Warna neon atau terlalu terang
+   - Terlalu banyak warna berbeza
+   - Kombinasi merah-hijau (sukar untuk colorblind)
+   - Background putih dengan teks kuning
+*/

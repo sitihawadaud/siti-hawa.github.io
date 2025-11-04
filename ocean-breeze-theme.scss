@@ -1,0 +1,122 @@
+/* ====================================================================
+   TEMA OCEAN BREEZE - IMPLEMENTASI LENGKAP
+   ====================================================================
+   
+   Tema warna biru yang menenangkan dan professional.
+   Siap untuk digunakan - salin dan ganti kandungan _globalColor.scss
+   
+   Warna utama:
+   - Primary: Biru navy (#0f4c75) - untuk butang dan tajuk
+   - Secondary: Biru cerah (#3282b8) - untuk hover dan aksen  
+   - Accent: Biru pastel (#bbe1fa) - untuk background card
+   - Success: Hijau emerald (#10b981) - untuk status positif
+*/
+
+// ===== WARNA BUTANG =====
+$buttonColor: #0f4c75;          // Biru navy untuk butang utama
+$buttonHover: #3282b8;          // Biru cerah untuk hover
+$topButtonHover: #0f4c75;       // Konsisten dengan butang utama
+$accentGold: #10b981;           // Hijau emerald sebagai aksen (ganti gold)
+
+// ===== WARNA TEKS - TEMA TERANG =====
+$titleColor: #0f4c75;           // Biru navy untuk tajuk
+$textColor: #1f2937;            // Kelabu gelap untuk teks utama
+$subTitle: #6b7280;             // Kelabu medium untuk subtajuk
+$cardSubtitle: #6b7280;         // Konsisten untuk subtitle kad
+$talkCardSubTitle: #6b7280;     // Konsisten untuk talk card
+$blogCardTitleColor: #0f4c75;   // Biru navy untuk tajuk blog
+
+// ===== WARNA TEKS - TEMA GELAP =====
+$textColorDark: #f8fafc;        // Putih lembut untuk tema gelap
+
+// ===== WARNA TOGGLE SWITCH =====
+$toggleCheck: #3282b8;          // Biru cerah untuk toggle aktif
+$toggleSwitchSliderBG: #d1d5db;  // Kelabu terang untuk slider
+
+// ===== WARNA GITHUB REPO KHUSUS =====
+$githubRepoCardLanguageColorBG: #3282b8;     // Biru cerah
+$githubRepoCardColor: #6b7280;               // Kelabu medium  
+$githubRepoCardRepoCardStatsColor: #9ca3af;  // Kelabu terang
+$githubRepoCardRepoNameColor: #1f2937;       // Kelabu gelap
+$githubProfileCardLocationTS: #bbe1fa;       // Biru pastel
+$githubProfileCardBorder: #3282b8;          // Biru cerah
+
+// ===== WARNA BACKGROUND TERANG =====
+$lightBackground1: #ffffff;      // Putih bersih untuk background utama
+$lightBackground2: #f8fafc;      // Kelabu sangat terang untuk section
+$lightBackground3: #f1f5f9;      // Kelabu terang untuk card
+$blogCardContainerColor: #6b7280; // Kelabu medium
+
+// ===== WARNA BACKGROUND GELAP =====
+$darkBackground: #1f2937;        // Kelabu gelap untuk tema gelap
+
+// ===== BAYANGAN TEMA TERANG =====
+$lightBoxShadowDark: rgba(15, 76, 117, 0.15);    // Bayangan dengan hint biru
+$lightBoxShadow: rgba(15, 76, 117, 0.08);        // Bayangan lembut biru
+$lightBoxShadowDarker: rgba(15, 76, 117, 0.25);  // Bayangan kuat biru
+
+// ===== BAYANGAN TEMA GELAP =====
+$darkBoxShadow: #e5e7eb;         // Kelabu terang
+$darkBoxShadow2: #f9fafb;        // Putih lembut
+
+// ===== GRADIEN LINEAR =====
+$experienceCardBlurredDivLG: linear-gradient(
+  rgba(15, 76, 117, 0.4),         // Biru dengan opacity
+  rgba(15, 76, 117, 0.2)
+);
+$experienceCardBannerLG: linear-gradient(
+  rgba(15, 76, 117, 0.8),         // Biru dengan opacity tinggi
+  rgba(50, 130, 184, 0.6)         // Biru cerah dengan opacity
+);
+
+// ===== BORDER =====
+$progressBarBackground: #f3f4f6;       // Kelabu sangat terang
+$lightBorder1: rgba(209, 213, 219, 0.6); // Border lembut
+$educationCardBorder: #bbe1fa;          // Biru pastel untuk education card
+
+// ===== HOVER EFFECTS =====
+$achievementCertificateCardHoverDark: rgba(50, 130, 184, 0.1); // Hover biru lembut
+$blogCardHoverSmallColor: rgba(187, 225, 250, 0.9);            // Hover biru pastel
+$headerHoverBG: #f8fafc;                                       // Background hover header
+$contactDetailHoverTS: #9ca3af;                                // Hover contact details
+
+// ===== BACKGROUND PELBAGAI =====
+$progressBarSpanBG: #3282b8;     // Biru cerah untuk progress bar
+$iconBackground: #1f2937;        // Kelabu gelap untuk ikon
+$appHeaderBG: #0f4c75;          // Biru navy untuk header app
+
+// ===== WARNA PELBAGAI =====
+$skillsColor: #0f4c75;          // Biru navy untuk skills
+$appLink: #3282b8;              // Biru cerah untuk link
+$goldAccent: #10b981;           // Hijau emerald (ganti gold)
+$goldAccentHover: #059669;      // Hijau emerald gelap untuk hover
+
+// ===== IKON MEDIA SOSIAL =====
+$faceBook: #1877f2;             // Biru Facebook (diperkemas)
+$linkedin: #0a66c2;             // Biru LinkedIn (diperkemas) 
+$github: #24292f;               // Kelabu gelap GitHub (diperkemas)
+$gitlab: #fc6d26;               // Oren GitLab
+$google: #ea4335;               // Merah Google
+$twitter: #1d9bf0;              // Biru Twitter (diperkemas)
+$medium: #000000;               // Hitam Medium
+$stackoverflow: #f58025;        // Oren Stack Overflow
+$instagram: #e4405f;            // Merah jambu Instagram (diperkemas)
+$kaggle: #20beff;               // Biru Kaggle
+
+/* ====================================================================
+   CARA MENGGUNAKAN:
+   ====================================================================
+   
+   1. Salin SEMUA kandungan fail ini
+   2. Buka fail src/_globalColor.scss
+   3. Gantikan SEMUA kandungan dengan yang ini
+   4. Simpan fail
+   5. Portfolio anda akan menggunakan tema Ocean Breeze yang mesra mata!
+   
+   Tema ini memberikan:
+   ✓ Kontras yang baik untuk kebolehbacaan
+   ✓ Warna yang menenangkan dan profesional  
+   ✓ Konsisten di seluruh portfolio
+   ✓ Sesuai untuk portfolio IT/teknologi
+   ✓ Mesra pengguna untuk penggunaan jangka panjang
+*/
